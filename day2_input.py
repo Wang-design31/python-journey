@@ -1,0 +1,12 @@
+name = input("What is your name? ")
+print(f"Hello, {name}!")
+age = int(input("How old are you? "))
+print(f"Next year you will be {age + 1}.")
+
+city = input("Which city do you live in? ")
+print(f"Great! You live in {city}.")
+goal = input("What is your career goal? ")
+print(f"Your goal is to become {goal}.")
+print(f"My name is {name}, I am {age} years old, and I live in {city}.")
+print(f"{name} from {city} wants to become {goal}.")
+print(f"In 5 years you will be {age + 5}.")
